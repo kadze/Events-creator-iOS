@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55FC41B51D5A09AA0032EE67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC41B41D5A09AA0032EE67 /* main.m */; };
+		55FC41B81D5A09AA0032EE67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC41B71D5A09AA0032EE67 /* AppDelegate.m */; };
+		55FC41C01D5A09AA0032EE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FC41BF1D5A09AA0032EE67 /* Assets.xcassets */; };
+		55FC41D01D5A0B0F0032EE67 /* UIWindow+SAPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC41CF1D5A0B0F0032EE67 /* UIWindow+SAPExtensions.m */; };
+		55FC41D91D5A0D540032EE67 /* SAPCreatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC41D81D5A0D540032EE67 /* SAPCreatorView.m */; };
+		55FC41E41D5A0EBD0032EE67 /* SAPCreatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC41E21D5A0EBD0032EE67 /* SAPCreatorViewController.m */; };
+		55FC41E51D5A0EBD0032EE67 /* SAPCreatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FC41E31D5A0EBD0032EE67 /* SAPCreatorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55FC41B01D5A09AA0032EE67 /* Calendar Events Creator iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calendar Events Creator iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FC41B41D5A09AA0032EE67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55FC41B61D5A09AA0032EE67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55FC41B71D5A09AA0032EE67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55FC41BF1D5A09AA0032EE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55FC41C41D5A09AA0032EE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FC41CE1D5A0B0F0032EE67 /* UIWindow+SAPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+SAPExtensions.h"; sourceTree = "<group>"; };
+		55FC41CF1D5A0B0F0032EE67 /* UIWindow+SAPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SAPExtensions.m"; sourceTree = "<group>"; };
+		55FC41D71D5A0D540032EE67 /* SAPCreatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPCreatorView.h; sourceTree = "<group>"; };
+		55FC41D81D5A0D540032EE67 /* SAPCreatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPCreatorView.m; sourceTree = "<group>"; };
+		55FC41E11D5A0EBD0032EE67 /* SAPCreatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPCreatorViewController.h; sourceTree = "<group>"; };
+		55FC41E21D5A0EBD0032EE67 /* SAPCreatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPCreatorViewController.m; sourceTree = "<group>"; };
+		55FC41E31D5A0EBD0032EE67 /* SAPCreatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAPCreatorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55FC41AD1D5A09AA0032EE67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55FC41A71D5A09AA0032EE67 = {
+			isa = PBXGroup;
+			children = (
+				55FC41B21D5A09AA0032EE67 /* Calendar Events Creator iOS */,
+				55FC41CA1D5A0B0F0032EE67 /* Source */,
+				55FC41B11D5A09AA0032EE67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55FC41B11D5A09AA0032EE67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41B01D5A09AA0032EE67 /* Calendar Events Creator iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FC41B21D5A09AA0032EE67 /* Calendar Events Creator iOS */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41B61D5A09AA0032EE67 /* AppDelegate.h */,
+				55FC41B71D5A09AA0032EE67 /* AppDelegate.m */,
+				55FC41BF1D5A09AA0032EE67 /* Assets.xcassets */,
+				55FC41C41D5A09AA0032EE67 /* Info.plist */,
+				55FC41B31D5A09AA0032EE67 /* Supporting Files */,
+			);
+			path = "Calendar Events Creator iOS";
+			sourceTree = "<group>";
+		};
+		55FC41B31D5A09AA0032EE67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41B41D5A09AA0032EE67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55FC41CA1D5A0B0F0032EE67 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41D11D5A0C4D0032EE67 /* UI */,
+				55FC41CB1D5A0B0F0032EE67 /* Library */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		55FC41CB1D5A0B0F0032EE67 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41CC1D5A0B0F0032EE67 /* Categories */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		55FC41CC1D5A0B0F0032EE67 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41CD1D5A0B0F0032EE67 /* UIWindow */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		55FC41CD1D5A0B0F0032EE67 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41CE1D5A0B0F0032EE67 /* UIWindow+SAPExtensions.h */,
+				55FC41CF1D5A0B0F0032EE67 /* UIWindow+SAPExtensions.m */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		55FC41D11D5A0C4D0032EE67 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41D21D5A0C4D0032EE67 /* SAPCreatorViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		55FC41D21D5A0C4D0032EE67 /* SAPCreatorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41E11D5A0EBD0032EE67 /* SAPCreatorViewController.h */,
+				55FC41E21D5A0EBD0032EE67 /* SAPCreatorViewController.m */,
+				55FC41E31D5A0EBD0032EE67 /* SAPCreatorViewController.xib */,
+				55FC41D61D5A0CBF0032EE67 /* Views */,
+			);
+			path = SAPCreatorViewController;
+			sourceTree = "<group>";
+		};
+		55FC41D61D5A0CBF0032EE67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55FC41D71D5A0D540032EE67 /* SAPCreatorView.h */,
+				55FC41D81D5A0D540032EE67 /* SAPCreatorView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55FC41AF1D5A09AA0032EE67 /* Calendar Events Creator iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FC41C71D5A09AA0032EE67 /* Build configuration list for PBXNativeTarget "Calendar Events Creator iOS" */;
+			buildPhases = (
+				55FC41AC1D5A09AA0032EE67 /* Sources */,
+				55FC41AD1D5A09AA0032EE67 /* Frameworks */,
+				55FC41AE1D5A09AA0032EE67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calendar Events Creator iOS";
+			productName = "Calendar Events Creator iOS";
+			productReference = 55FC41B01D5A09AA0032EE67 /* Calendar Events Creator iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55FC41A81D5A09AA0032EE67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Andrey;
+				TargetAttributes = {
+					55FC41AF1D5A09AA0032EE67 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 55FC41AB1D5A09AA0032EE67 /* Build configuration list for PBXProject "Calendar Events Creator iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55FC41A71D5A09AA0032EE67;
+			productRefGroup = 55FC41B11D5A09AA0032EE67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55FC41AF1D5A09AA0032EE67 /* Calendar Events Creator iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55FC41AE1D5A09AA0032EE67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FC41E51D5A0EBD0032EE67 /* SAPCreatorViewController.xib in Resources */,
+				55FC41C01D5A09AA0032EE67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55FC41AC1D5A09AA0032EE67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FC41D91D5A0D540032EE67 /* SAPCreatorView.m in Sources */,
+				55FC41E41D5A0EBD0032EE67 /* SAPCreatorViewController.m in Sources */,
+				55FC41D01D5A0B0F0032EE67 /* UIWindow+SAPExtensions.m in Sources */,
+				55FC41B81D5A09AA0032EE67 /* AppDelegate.m in Sources */,
+				55FC41B51D5A09AA0032EE67 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55FC41C51D5A09AA0032EE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55FC41C61D5A09AA0032EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FC41C81D5A09AA0032EE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calendar Events Creator iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SAP.Calendar-Events-Creator-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55FC41C91D5A09AA0032EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calendar Events Creator iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SAP.Calendar-Events-Creator-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55FC41AB1D5A09AA0032EE67 /* Build configuration list for PBXProject "Calendar Events Creator iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FC41C51D5A09AA0032EE67 /* Debug */,
+				55FC41C61D5A09AA0032EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FC41C71D5A09AA0032EE67 /* Build configuration list for PBXNativeTarget "Calendar Events Creator iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FC41C81D5A09AA0032EE67 /* Debug */,
+				55FC41C91D5A09AA0032EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55FC41A81D5A09AA0032EE67 /* Project object */;
+}
